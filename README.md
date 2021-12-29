@@ -8,3 +8,7 @@ This docker container expects two folders to exist in the directory above it:
 - `export` is used to hold files that you want to make available via the IPFS network.
 
 [More information on running IPFS inside Docker can be found here](https://docs.ipfs.io/how-to/run-ipfs-inside-docker/).
+
+Run commands like this:
+
+- `docker exec ipfs ipfs swarm peers`
